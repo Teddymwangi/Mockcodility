@@ -1,6 +1,6 @@
 const chai = require('chai');
 const expect = chai.expect;
-const solution = require('../bank_account').solution;
+const solution = require('.').solution;
 
 describe('Bank Account', () => {
     it('should return the correct balance for test case 1', () => {
